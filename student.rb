@@ -1,8 +1,4 @@
 #!/home/niharika/.rvm/rubies/ruby-2.7.0/bin/ruby
-#marks={"Niharika":99, "Sagar":88, "Mayur":77, "Tejas":66}
-#attendance={"Niharika":89, "Sagar":78, "Mayur":66, "Tejas":80}
-#puts marks
-#puts attendance
 
 
 puts "enter no of students"
@@ -27,12 +23,6 @@ puts s_marks
 print "Attendance of the student "
 puts s_attendance
 
-
-
-
-
-
-
 t= s_marks.key(s_marks.values.max)
 puts "Topper is #{t}"
 
@@ -45,8 +35,6 @@ end
 	
 print "Defaulter list is "
 puts s_defaulter
-
-
 
 a=0
 
